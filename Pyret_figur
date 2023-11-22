@@ -1,0 +1,13 @@
+tre = rectangle(100, 300, "solid", "brown")
+blader = circle(100, "solid", "forestgreen")
+bakke_1 = circle(450, "solid", "springgreen")
+sol = circle(100, "solid", "yellow")
+bakgrunn = empty-color-scene(500, 500, "deep-sky-blue")
+
+
+put-image(sol, 0, 500,
+put-image(bakke_1, 250, -350,
+    put-image(blader, 250, 350,
+put-image(tre, 250, 200,
+        bakgrunn))))
+
